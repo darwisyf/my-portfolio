@@ -53,7 +53,7 @@ const projects = ref([
         image: '/Portfolio Website.png',
         tag: ['VueJS', 'TailwindCSS'],
         liveLink: '/',
-        codeLink: "",
+        codeLink: "https://github.com/darwisyf/my-portfolio",
     },
     {
         title: 'Production Dashboard',
