@@ -50,7 +50,7 @@ const projects = ref([
     {
         title: 'Portfolio Website',
         desc: 'A Website i made using VueJS and TailwindCSS and some CSS and JS library',
-        image: '/Portfolio Website.png',
+        image: '/my-portfolio/images/Portfolio-Website.png',
         tag: ['VueJS', 'TailwindCSS'],
         liveLink: '/',
         codeLink: "https://github.com/darwisyf/my-portfolio",
@@ -58,7 +58,7 @@ const projects = ref([
     {
         title: 'Production Dashboard',
         desc: 'An internal data visualization i made using Power BI from Production Database at PT. TMMIN',
-        image: '/Production Dashboard.png',
+        image: '/my-portfolio/images/Production-Dashboard.png',
         tag: ['PowerBI', 'PostgreSQL', 'Sharepoint', 'PowerQuery'],
         liveLink: '',
         codeLink: "",
@@ -66,7 +66,7 @@ const projects = ref([
     {
         title: 'Safety Dashboard',
         desc: 'An internal data visualization i made using Power BI from Safety Database at PT. TMMIN',
-        image: '/Safety Dashboard.jpeg',
+        image: '/my-portfolio/images/Safety-Dashboard.jpeg',
         tag: ['PowerBI', 'PostgreSQL', 'Sharepoint', 'PowerQuery'],
         liveLink: '',
         codeLink: "",
@@ -74,7 +74,7 @@ const projects = ref([
     {
         title: 'Accounting Web Application (Unfinished)',
         desc: 'My personal project for learning Fullstack Web Development using Laravel 12 and Tailwindcss',
-        image: '/Accounting Web App.png',
+        image: '/my-portfolio/images/Accounting-Web-App.png',
         tag: ['Laravel', 'TailwindCSS'],
         liveLink: '',
         codeLink: "https://github.com/darwisyf/laravel-akuntansi",

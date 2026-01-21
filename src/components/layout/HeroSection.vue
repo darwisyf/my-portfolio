@@ -30,8 +30,7 @@
                 <figure
                     class="card relative m-[30px] md:w-[420px] md:h-[420px] md:before:w-[450px] md:before:h-[450px] w-[280px] h-[350px] before:w-[300px] before:h-[300px] before:border-[25px] before:border-primary before:shadow-[7px_7px_21px_primary,_-7px_-7px_21px_primary] dark:before:border-secondary dark:before:shadow-[7px_7px_21px_secondary,_-7px_-7px_21px_secondary]">
                     <div class="relative w-full h-full bg-cover transform translate-x-[10px] translate-y-[10px]">
-                        <img src="@/assets/images/Profile Picture.jpg" alt="Hero Picture" class="max-w-1/2"
-                            loading="lazy">
+                        <img :src="profilePic" alt="Hero Picture" class="max-w-1/2" loading="lazy">
                     </div>
                 </figure>
             </aside>
@@ -46,7 +45,8 @@
     </section>
 </template>
 <script setup>
-import Button from '@/components/UI/Button.vue';
+import profilePic from '@/assets/images/profile-picture.jpg';
+// import Button from '@/components/UI/Button.vue';
 </script>
 
 <style scoped>
