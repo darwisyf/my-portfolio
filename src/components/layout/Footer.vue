@@ -1,0 +1,12 @@
+<template>
+    <footer class="z-10 text-white border-t-2 border-t-white bg-primary mt-20">
+        <div class="w-full p-8 flex justify-between">
+            <div class="text-3xl font-bold flex">Wishy</div>
+            <div class="ml-2">
+                All rights reserved<br />
+                Icons by <a href="https://icons8.com/" class="hover:underline">Icons8</a> & <a
+                    href="https://iconify.design/" class="hover:underline">Iconify</a>
+            </div>
+        </div>
+    </footer>
+</template>
