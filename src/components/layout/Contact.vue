@@ -16,11 +16,11 @@
                             class="text-gray-600 hover:text-blue-700">
                             <Icon icon="fa-brands:linkedin" style="font-size: 1.8rem;" />
                         </a>
-                        <a href="https://github.com/darwisyf"
+                        <a href="https://www.github.com/darwisyf"
                             class="text-gray-600 hover:text-gray-800 dark:hover:text-gray-400">
                             <Icon icon="fa-brands:github" style="font-size: 1.8rem;" />
                         </a>
-                        <a href="https://instagram.com/darwisyy.f" class="text-gray-600 hover:text-pink-500">
+                        <a href="https://www.instagram.com/darwisyy.f" class="text-gray-600 hover:text-pink-500">
                             <Icon icon="fa-brands:instagram" style="font-size: 1.8rem;" />
                         </a>
                     </div>
