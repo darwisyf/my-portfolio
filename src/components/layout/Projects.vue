@@ -21,9 +21,8 @@
         }" :navigation="navigationOptions" pagination :modules="[EffectCoverflow, Navigation]"
             class="max-w-full mt-32">
             <swiper-slide class="max-w-[300px]" v-for="(project, index) in projects" :key="index">
-                <ProjectCard :title="project.title" :description="project.desc"
-                    :image="'src/assets/images/' + project.image" :tags="project.tag" :liveLink="project.liveLink"
-                    :codeLink="project.codeLink" />
+                <ProjectCard :title="project.title" :description="project.desc" :image="project.image"
+                    :tags="project.tag" :liveLink="project.liveLink" :codeLink="project.codeLink" />
             </swiper-slide>
         </swiper>
     </section>
@@ -58,7 +57,7 @@ const projects = ref([
     {
         title: 'Production Dashboard',
         desc: 'An internal data visualization i made using Power BI from Production Database at PT. TMMIN',
-        image: '/my-portfolio/images/roduction-dashboard.png',
+        image: '/my-portfolio/images/production-dashboard.png',
         tag: ['PowerBI', 'PostgreSQL', 'Sharepoint', 'PowerQuery'],
         liveLink: '',
         codeLink: "",
