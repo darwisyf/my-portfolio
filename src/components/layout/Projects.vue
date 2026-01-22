@@ -38,6 +38,10 @@ import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { EffectCoverflow, Navigation } from 'swiper/modules';
 import { Icon } from '@iconify/vue';
+import projectImage1 from '@/assets/images/portfolio-website.png'
+import projectImage2 from '@/assets/images/production-dashboard.png'
+import projectImage3 from '@/assets/images/safety-dashboard.jpeg'
+import projectImage4 from '@/assets/images/accounting-web-app.png'
 
 // Define navigation options
 const navigationOptions = {
@@ -49,7 +53,7 @@ const projects = ref([
     {
         title: 'Portfolio Website',
         desc: 'A Website i made using VueJS and TailwindCSS and some CSS and JS library',
-        image: '/my-portfolio/images/portfolio-website.png',
+        image: projectImage1,
         tag: ['VueJS', 'TailwindCSS'],
         liveLink: '/',
         codeLink: "https://github.com/darwisyf/my-portfolio",
@@ -57,7 +61,7 @@ const projects = ref([
     {
         title: 'Production Dashboard',
         desc: 'An internal data visualization i made using Power BI from Production Database at PT. TMMIN',
-        image: '/my-portfolio/images/production-dashboard.png',
+        image: projectImage2,
         tag: ['PowerBI', 'PostgreSQL', 'Sharepoint', 'PowerQuery'],
         liveLink: '',
         codeLink: "",
@@ -65,7 +69,7 @@ const projects = ref([
     {
         title: 'Safety Dashboard',
         desc: 'An internal data visualization i made using Power BI from Safety Database at PT. TMMIN',
-        image: '/my-portfolio/images/safety-dashboard.jpeg',
+        image: projectImage3,
         tag: ['PowerBI', 'PostgreSQL', 'Sharepoint', 'PowerQuery'],
         liveLink: '',
         codeLink: "",
@@ -73,7 +77,7 @@ const projects = ref([
     {
         title: 'Accounting Web Application (Unfinished)',
         desc: 'My personal project for learning Fullstack Web Development using Laravel 12 and Tailwindcss',
-        image: '/my-portfolio/images/accounting-web-app.png',
+        image: projectImage4,
         tag: ['Laravel', 'TailwindCSS'],
         liveLink: '',
         codeLink: "https://github.com/darwisyf/laravel-akuntansi",
