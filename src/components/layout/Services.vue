@@ -48,7 +48,7 @@ const services = ref([
     },
     {
         id: 4,
-        icon: 'https://img.icons8.com/?size=100&id=3CgZofyp3aTV&format=png&color=000000',
+        icon: 'https://img.icons8.com/?size=100&id=2c0vKpIXvERQ&format=png&color=000000',
         name: 'Video Editing',
         description: 'I can edit your videos using Premiere or Capcut'
     },
