@@ -72,9 +72,9 @@ const skills = ref([
     },
     {
         percentage: 78,
-        title: 'Premiere Pro',
-        bgGradient: 'to-[#0A0E8C] from-[#FFE600]',
-        textColor: '#0A0E8C'
+        title: 'Premiere',
+        bgGradient: 'to-[#9498F2] from-[#FFE600]',
+        textColor: '#9498F2'
     },
     {
         percentage: 87,

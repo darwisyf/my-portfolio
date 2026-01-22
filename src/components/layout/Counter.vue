@@ -8,7 +8,7 @@
         </header>
 
         <ul ref="statsSection"
-            class="relative z-1 p-6 mx-auto w-11/12 lg:mx-0 rounded-3xl border dark:bg-[#FFFFFF29] bg-primary shadow-lg md:divide-x grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 lg:gap-12 border-secondary divide-secondary">
+            class="relative z-1 p-6 mx-auto w-11/12 lg:mx-0 rounded-3xl border dark:bg-[#FFFFFF29] bg-primary shadow-lg md:divide-x grid grid-cols-3 md:grid-cols-3 gap-4 md:gap-8 lg:gap-12 border-secondary divide-secondary">
             <li class="text-center" v-for="element in numbers" :key="element.id">
                 <h2 class="font-semibold flex justify-center text-xl sm:text-2xl md:text-4xl w-full">
                     +
