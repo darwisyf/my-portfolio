@@ -6,7 +6,7 @@
         <component :is="type === 'textarea' ? 'textarea' : 'input'" :id="id"
             :rows="type === 'textarea' ? rows : undefined" :placeholder="placeholder" :value="modelValue"
             @input="updateValue"
-            class="shadow-sm dark:text-gray-900 text-gray-300 text-sm rounded-lg block w-full p-2.5 focus:ring-primary-500 focus:border-primary-500 border border-secondary dark:bg-[#ffffff99] bg-primary">
+            class="shadow-sm text-gray-300 dark:text-gray-900 text-sm rounded-lg block w-full p-2.5 focus:ring-primary-500 focus:border-primary-500 border border-secondary dark:bg-[#ffffff99] bg-primary">
 
         </component>
     </div>

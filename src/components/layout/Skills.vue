@@ -70,6 +70,18 @@ const skills = ref([
         bgGradient: 'to-[#F0DB4F] from-[#FFE600]',
         textColor: '#F0DB4F'
     },
+    {
+        percentage: 78,
+        title: 'Premiere Pro',
+        bgGradient: 'to-[#0A0E8C] from-[#FFE600]',
+        textColor: '#0A0E8C'
+    },
+    {
+        percentage: 87,
+        title: 'CapCut',
+        bgGradient: 'to-[#00CAE0] from-[#FFE600]',
+        textColor: '#00CAE0'
+    },
 ]);
 
 // Track visibility of items
