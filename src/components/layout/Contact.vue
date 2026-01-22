@@ -12,7 +12,7 @@
                     <Button label="Send" type="submit" />
 
                     <div class="mt-2 flex justify-center space-x-2 md:space-x-7 mr-4">
-                        <a href="www.linkedin.com/in/darwisyf" class="text-gray-600 hover:text-blue-700">
+                        <a href="https://www.linkedin.com/in/darwisyf" class="text-gray-600 hover:text-blue-700">
                             <Icon icon="fa-brands:linkedin" style="font-size: 1.8rem;" />
                         </a>
                         <a href="https://www.github.com/darwisyf"
