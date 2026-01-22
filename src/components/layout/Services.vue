@@ -31,8 +31,8 @@ const services = ref([
     {
         id: 1,
         icon: 'https://img.icons8.com/ios-filled/100/daed1a/google-code.png',
-        name: 'Web Development',
-        description: 'I can make a Web Application for you'
+        name: 'Fullstack Web Development',
+        description: 'I can make a Fullstack Web Application for you'
     },
     {
         id: 2,

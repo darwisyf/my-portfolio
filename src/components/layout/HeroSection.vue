@@ -19,7 +19,7 @@
                     through both code and numbers.</p>
                 <div class="mt-6 flex justify-center lg:justify-start">
                     <!-- <Button label="Hire Me" /> -->
-                    <a href="../../../public/CV_Bahij Darwisy F.pdf" download
+                    <a :href=myResume download
                         class="font-semibold text-lg w-[10rem] h-[55px] dark:text-secondary rounded-md border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent flex justify-center items-center text-primary border-primary">
                         <Icon icon="line-md:download-loop" class="text-3xl" />
                         <span class="ml-1">Resume</span>
@@ -46,6 +46,7 @@
 </template>
 <script setup>
 import profilePic from '@/assets/images/profile-picture.jpg';
+import myResume from '@assets/CV_Bahij-Darwisy-F.pdf'
 // import Button from '@/components/UI/Button.vue';
 </script>
 
