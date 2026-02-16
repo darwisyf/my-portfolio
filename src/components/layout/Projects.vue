@@ -38,10 +38,19 @@ import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { EffectCoverflow, Navigation } from 'swiper/modules';
 import { Icon } from '@iconify/vue';
-import projectImage1 from '@/assets/images/portfolio-website.png'
-import projectImage2 from '@/assets/images/production-dashboard.png'
-import projectImage3 from '@/assets/images/safety-dashboard.jpeg'
-import projectImage4 from '@/assets/images/accounting-web-app.png'
+// import projectImage1 from '@/assets/images/portfolio-website.png'
+// import projectImage2 from '@/assets/images/production-dashboard.png'
+// import projectImage3 from '@/assets/images/safety-dashboard.jpeg'
+// import projectImage4 from '@/assets/images/accounting-web-app.png'
+
+const modules = import.meta.glob('@/assets/images/*.{jpeg,jpg,png}', { eager: true })
+
+const images = Object.fromEntries(
+    Object.entries(modules).map(([path, module]) => {
+        const fileName = path.split('/').pop().split('.')[0]
+        return [fileName, module.default]
+    })
+)
 
 // Define navigation options
 const navigationOptions = {
@@ -53,7 +62,7 @@ const projects = ref([
     {
         title: 'Portfolio Website',
         desc: 'A Website i made using VueJS and TailwindCSS and some CSS and JS library',
-        image: projectImage1,
+        image: images.portfolio_website,
         tag: ['VueJS', 'TailwindCSS'],
         liveLink: '/',
         codeLink: "https://github.com/darwisyf/my-portfolio",
@@ -61,7 +70,7 @@ const projects = ref([
     {
         title: 'Production Dashboard',
         desc: 'An internal data visualization i made using Power BI from Production Database at PT. TMMIN',
-        image: projectImage2,
+        image: images.production_dashboard,
         tag: ['PowerBI', 'PostgreSQL', 'Sharepoint', 'PowerQuery'],
         liveLink: '',
         codeLink: "",
@@ -69,19 +78,27 @@ const projects = ref([
     {
         title: 'Safety Dashboard',
         desc: 'An internal data visualization i made using Power BI from Safety Database at PT. TMMIN',
-        image: projectImage3,
+        image: images.safety_dashboard,
         tag: ['PowerBI', 'PostgreSQL', 'Sharepoint', 'PowerQuery'],
         liveLink: '',
         codeLink: "",
     },
     {
-        title: 'Accounting Web Application (Unfinished)',
+        title: 'Accounting Web Application',
         desc: 'My personal project for learning Fullstack Web Development using Laravel 12 and Tailwindcss',
-        image: projectImage4,
+        image: images.accounting_web_app,
         tag: ['Laravel', 'TailwindCSS'],
         liveLink: '',
         codeLink: "https://github.com/darwisyf/laravel-akuntansi",
-    }
+    },
+    {
+        title: 'Travel Company Website (On Progress)',
+        desc: 'Website Development Project for a client from a Travel Company',
+        image: images.travel_web,
+        tag: ['VueJS', 'TailwindCSS'],
+        liveLink: '',
+        codeLink: "",
+    },
 ])
 </script>
 <style>

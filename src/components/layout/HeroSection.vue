@@ -46,8 +46,7 @@
 </template>
 <script setup>
 import profilePic from '@/assets/images/profile-picture.jpg';
-import myResume from '@/assets/CV_Bahij-Darwisy-F.pdf'
-// import Button from '@/components/UI/Button.vue';
+import myResume from '@/assets/Bahij_Darwisy_Farras_CV.pdf'
 </script>
 
 <style scoped>

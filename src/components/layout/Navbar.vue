@@ -4,12 +4,12 @@
 
       <!-- Mobile Toggle Button -->
       <div class="md:hidden z-30">
-        <button class="block focus:outline-none" @click="isMenuOpen = !isMenuOpen">
-          <span v-if="isMenuOpen" class="text-5xl md:text-primary text-white dark:text-white">
-            <Icon icon="material-symbols:close-rounded" />
+        <button class="focus:outline-none" @click="isMenuOpen = !isMenuOpen">
+          <span v-if="isMenuOpen" class="text-5xl md:text-primary text-white dark:text-white fixed">
+            <Icon icon="line-md:menu-to-close-transition" />
           </span>
-          <span v-else="" class="text-5xl md:text-primary text-primary dark:text-white">
-            <Icon icon="material-symbols:menu-rounded" />
+          <span v-else="" class="text-5xl md:text-primary text-primary dark:text-white mt-5 block">
+            <Icon icon="line-md:close-to-menu-alt-transition" />
           </span>
         </button>
       </div>
